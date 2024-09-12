@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1>JPY to MMK Currency Converter</h1>
+
+        <label for="usdToJpy">Enter USD to JPY Rate:</label>
+        <input type="number" id="usdToJpy" placeholder="Enter USD to JPY" />
+
+        <label for="usdToMmk">Enter USD to MMK Rate:</label>
+        <input type="number" id="usdToMmk" placeholder="Enter USD to MMK" />
+
+        <label for="jpyInput">Enter Amount in JPY:</label>
+        <input type="number" id="jpyInput" placeholder="Enter JPY" />
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <div id="result"></div>
+
+        <br/>
+        <a href="mmk-to-jpy.html" class="link-button">Convert MMK to JPY</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

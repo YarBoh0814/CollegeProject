@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: "Noticia Text", serif;
+    background-image: url('spiderman-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.converter {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #d40000;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+    color: greenyellow;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.link-button:hover {
+    background-color: #d40000;
+}
